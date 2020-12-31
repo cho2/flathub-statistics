@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sobd4984/public_html/flathub
+    - /bin/cp -R *.* $DEPLOYPATH
